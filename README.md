@@ -1,7 +1,7 @@
 # Bootstrap-less
 
 This package contains only the less files of bootstrap.
-This should be used when compiling bootstrap from source using less.
+It can be used when compiling bootstrap from source using less.
 
 This repository is about 607 kb.
 
@@ -31,13 +31,15 @@ Or individual files can be imported instead of the index.
 
 The javascript is included in the `js` directory.
 
+To use it in your client install it using jspm.
+
     jspm install bootstrap-less
 
-Include all scripts by using the compiled version file.
+Include all scripts by using the compiled version which includes all the javascript.
 
     import "bootstrap-less";
     
-or include individual scripts if only some scripts are needed.
+Or include individual scripts if only some are needed.
     
     import "bootstrap-less/js/affix";
     import "bootstrap-less/js/dropdowns";
