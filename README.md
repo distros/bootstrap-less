@@ -33,7 +33,7 @@ The javascript is included in the `js` directory.
 
 when using jspm the package can be installed from npm.
 
-    jspm install npm:bootstrap-less
+    jspm install bootstrap-less
 
 Include all scripts by using the compiled version file.
 
