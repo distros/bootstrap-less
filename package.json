@@ -13,23 +13,23 @@
   "bugs": {
     "url": "https://github.com/distros/bootstrap-less/issues"
   },
-  "main": "js/bootstrap.js",
+  "main": "js/bootstrap",
   "format": "global",
   "shim": {
-    "js/bootstrap.js": ["jquery"],
-    "js/bootstrap.min.js": ["jquery"],
-    "js/affix.js": ["jquery"],
-    "js/alert.js": ["jquery"],
-    "js/button.js": ["jquery"],
-    "js/carousel.js": ["jquery"],
-    "js/collapse.js": ["jquery"],
-    "js/dropdown.js": ["jquery"],
-    "js/modal.js": ["jquery"],
-    "js/popover.js": ["jquery"],
-    "js/scrollspy.js": ["jquery"],
-    "js/tab.js": ["jquery"],
-    "js/tooltip.js": ["jquery"],
-    "js/transition.js": ["jquery"]
+    "js/bootstrap": ["jquery"],
+    "js/bootstrap.min": ["jquery"],
+    "js/affix": ["jquery"],
+    "js/alert": ["jquery"],
+    "js/button": ["jquery"],
+    "js/carousel": ["jquery"],
+    "js/collapse": ["jquery"],
+    "js/dropdown": ["jquery"],
+    "js/modal": ["jquery"],
+    "js/popover": ["jquery"],
+    "js/scrollspy": ["jquery"],
+    "js/tab": ["jquery"],
+    "js/tooltip": ["jquery"],
+    "js/transition": ["jquery"]
   },
   "jspm":{
     "dependencies": {
