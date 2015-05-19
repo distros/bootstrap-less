@@ -2,31 +2,38 @@
   "name": "bootstrap-less",
   "version": "3.3.6",
   "description": "less files for bootstrap",
+  "keywords": [
+    "bootstrap",
+    "less"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:distros/bootstrap-less.git"
   },
+  "bugs": {
+    "url": "https://github.com/distros/bootstrap-less/issues"
+  },
   "main": "js/bootstrap.js",
+  "format": "global",
+  "shim": {
+    "js/bootstrap.js": ["jquery"],
+    "js/bootstrap.min.js": ["jquery"],
+    "js/affix.js": ["jquery"],
+    "js/alert.js": ["jquery"],
+    "js/button.js": ["jquery"],
+    "js/carousel.js": ["jquery"],
+    "js/collapse.js": ["jquery"],
+    "js/dropdown.js": ["jquery"],
+    "js/modal.js": ["jquery"],
+    "js/popover.js": ["jquery"],
+    "js/scrollspy.js": ["jquery"],
+    "js/tab.js": ["jquery"],
+    "js/tooltip.js": ["jquery"],
+    "js/transition.js": ["jquery"]
+  },
   "jspm":{
-    "format": "global",
     "dependencies": {
       "jquery": "github:components/jquery"
-    },
-    "shim": {
-      "js/bootstrap.js": ["jquery"],
-      "js/bootstrap.min.js": ["jquery"],
-      "js/affix.js": ["jquery"],
-      "js/alert.js": ["jquery"],
-      "js/button.js": ["jquery"],
-      "js/carousel.js": ["jquery"],
-      "js/collapse.js": ["jquery"],
-      "js/dropdown.js": ["jquery"],
-      "js/modal.js": ["jquery"],
-      "js/popover.js": ["jquery"],
-      "js/scrollspy.js": ["jquery"],
-      "js/tab.js": ["jquery"],
-      "js/tooltip.js": ["jquery"],
-      "js/transition.js": ["jquery"]
     }
   }
 }
