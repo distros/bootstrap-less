@@ -31,8 +31,6 @@ Or individual files can be imported instead of the index.
 
 The javascript is included in the `js` directory.
 
-when using jspm the package can be installed from npm.
-
     jspm install bootstrap-less
 
 Include all scripts by using the compiled version file.
