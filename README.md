@@ -25,6 +25,7 @@ Then bootstrap can be included in any less file.
 Or individual files can be imported instead of the index.
 
     @import "bootstrap/grid";
+    @import "bootstrap/affix";
     @import "bootstrap/dropdowns";
     
 ## Javascript
