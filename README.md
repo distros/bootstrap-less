@@ -1,5 +1,7 @@
 # Bootstrap-less
 
+This release is in line with Bootstrap 3.3.5.
+
 This package contains only the less files of bootstrap.
 It can be used when compiling bootstrap from source using less.
 
