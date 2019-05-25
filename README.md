@@ -1,3 +1,5 @@
+NOTE: This project is not maintained but please feel free to submit pull requests if you need an update or some other changes to this repository
+
 # Bootstrap-less
 
 This release is in line with Bootstrap 3.3.5.
